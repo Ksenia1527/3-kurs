@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    ///задания к 2 уроку///
+        var a = 1, b = 1, c, d;
+		c = ++a; alert(c); // 2 /// ++a мы к переменной прибавляем единицу и выводим переменную с///
+		d = b++; alert(d); // 1 /// b++  мы прибавляем единицу, но выводим прошлое значение переменной ///
+		c = (2+ ++a); alert(c); // 5 /// мы к 2 прибавляем значение 3 которая получается у нас при опереции ++а-мы берем прошлое значение а и к нему прибавляем 1///
+		d = (2+ b++); alert(d); // 4 /// выше значение b равно 2, мы прибавляем 1 и b становится равно 3 но берем прошлое значение и получается b=2 прибавляем 2 и получается 4 ///
+		alert(a); // 3	/// по опирациям выше конечным значением а было 3 ///
+		alert(b); // 3	/// по опирациям выше конечным значением b было 3 ///
+    </script>
+    <script>
+    ///задание 2///
+		var a = 2;
+		var x = 1 + (a *= 2); /// x будет равен 5 т.к. полное выражение x = 1 + (a = a * 2 ) ///
+	</script>
+
+		
+	<script>
+        ///Задача 3///
+		var a = 7;
+		var b = 9;
+		if (a > 0 && b > 0)
+        {
+        x = a - b;
+		alert(x);
+        } 
+        else if (a < 0 && b < 0)
+        {
+			x = a * b;
+			alert (x);
+        }
+		  else if (a > 0 && b < 0 || a < 0 && b > 0)
+          {
+		  x = a + b;
+		  alert (x);
+		  }
+		
+	</script>
+
+		
+	<script>
+        ///Задача 4///
+		var a = +prompt ("Введите число от 1 до 15");
+		switch (a)
+        {
+		case 1:
+			alert ( "Ваше число 1");
+		case 2:
+			alert ( "Ваше число 2");
+		case 3:
+			alert ( "Ваше число 3");
+		case 4:
+			alert ( "Ваше число 4");
+		case 5:
+			alert ( "Ваше число 5");
+		case 6:
+			alert ( "Ваше число 6");
+		case 7:
+			alert ( "Ваше число 7");
+		case 8:
+			alert ( "Ваше число 8");
+		case 9:
+			alert ( "Ваше число 9");
+		case 10:
+			alert ( "Ваше число 10");
+		case 11:
+			alert ( "Ваше число 11");
+		case 12:
+			alert ( "Ваше число 12");
+		case 13:
+			alert ( "Ваше число 13");
+		case 14:
+			alert ( "Ваше число 14");
+		case 15:
+			alert ( "Ваше число 15");
+		}	
+	</script>
+
+    <script>
+        ///Задача 5///
+		var a = 6;
+		var b = 9;
+
+		function average (a, b) 
+    {
+    		return (a + b)/2;
+		}
+   alert(average);
+		function mult (a, b) 
+    {
+    		return a+b;
+		}
+    alert(mult);
+    
+    function plus(a, b)
+    {
+    		return a+b;
+		}
+   alert(plus);
+    
+    function minus(a, b) 
+    {
+    		return a-b;
+		}
+   alert(minus);
+	</script>
+
+</body>
+</html>
